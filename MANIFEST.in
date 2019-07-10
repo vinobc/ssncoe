@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ssncoe *.css
+recursive-include ssncoe *.csv
+recursive-include ssncoe *.html
+recursive-include ssncoe *.ico
+recursive-include ssncoe *.js
+recursive-include ssncoe *.json
+recursive-include ssncoe *.md
+recursive-include ssncoe *.png
+recursive-include ssncoe *.py
+recursive-include ssncoe *.svg
+recursive-include ssncoe *.txt
+recursive-exclude ssncoe *.pyc
